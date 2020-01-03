@@ -1,0 +1,23 @@
+.img-bg{
+    width: 100%;
+    text-align: center;
+    /* border: 2px solid black; */
+    height: auto;
+}
+
+.img-bg img{
+    margin-top: 30px;
+}
+
+@media screen and (max-width:768px){
+    .img-bg img{
+        width: 100%;
+}
+}
+
+/* Put icons within form input */
+.left-addon input  { padding-left:  40px; }
+.left-addon i  { 
+    position: absolute;
+    padding:  10px; 
+}
